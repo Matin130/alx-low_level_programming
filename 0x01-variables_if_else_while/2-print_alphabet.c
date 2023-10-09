@@ -2,12 +2,13 @@
 
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
- * Return - 0
+ * Return: Always 0 (Sucess)
  */
 
 int main(void)
 {
 	char i = 'a';
+
 	while (i <= 'z')
 	{
 		putchar(i);
