@@ -10,7 +10,7 @@ int main(void)
 	char alpha;
 	char caps;
 
-	for (caps = 'a'; caps <= 'z'; caps++)	
+	for (caps = 'a'; caps <= 'z'; caps++)
 		putchar(caps);
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 		putchar(alpha);
